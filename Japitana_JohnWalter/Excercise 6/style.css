@@ -1,0 +1,12 @@
+.bgdiv {
+    background-image:url("img1.jfif");
+}
+h2 {
+    font-family: 'Times New Roman';
+}
+.brd {
+    border-style: solid;
+}
+.bgc {
+    background-color: yellow;
+}
