@@ -1,0 +1,17 @@
+#name {
+    background-image: url('https://www.thoughtco.com/thmb/g8h6NnWWWVkm-KXNBgMx-0Edd2U=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages_482194715-56a1329e5f9b58b7d0bcf666.jpg');
+}
+
+h2 {
+    font-style: italic;
+    font-family: Arial;
+}
+
+#Works {
+    
+    border: 20px solid lightpink;
+}
+
+#Gallery {
+    background-color: lightbrown;
+}
