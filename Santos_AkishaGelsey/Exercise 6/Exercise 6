@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>Santos Akisha Gelsey Page</title>
+        <link href="style.css" rel="stylesheet"/>
+    <body>
+        <div class="bgdiv">
+            <h1>Santos Akisha Gelsey/h1>
+        </div>
+        <div>
+            <h2>My interests and hobbies</h2>
+            <ul>
+                <li>Walking</li>
+                <li>Gaming</li>
+                <li>Reading books</li>
+                <li>Listening to music</li>
+                <li>Meditating</li>
+            </ul>                                               
+        </div>
+        <div class="brd">
+            <h2>My works</h2>
+            <ol>
+                <li><a href="./akisha.html">Japitana.html</a></li>
+                <li><a href="./akishagelsey.html">Test.html</a></li>
+                <li><a href="./gelsey.html">Work3.html</a></li>
+                <li><a href="./loml.html">Work4.html</a></li>
+                <li><a href="./lopena.html">Work5.html</a></li>
+            </ol>
+        </div>
+        <div>
+            <h2>Testimonials</h2>
+        </div>
+        <div class="bgc">
+            <h2>Gallery</h2>
+            <img src="https://www.google.com/imgres?q=sunsets&imgurl=https%3A%2F%2Fimages.pexels.com%2Fphotos%2F269583%2Fpexels-photo-269583.jpeg%3Fcs%3Dsrgb%26dl%3Dpexels-pixabay-269583.jpg%26fm%3Djpg&imgrefurl=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fsunset%2F&docid=tShLhZ2tOoVYhM&tbnid=mPURVxh8ajj65M&vet=12ahUKEwjC88qjtLKFAxXyZWwGHcXlBzoQM3oECGQQAA..i&w=5367&h=3578&hcb=2&ved=2ahUKEwjC88qjtLKFAxXyZWwGHcXlBzoQM3oECGQQAA">
+            <img src="https://https://www.google.com/imgres?imgurl=https%3A%2F%2Ft3.ftcdn.net%2Fjpg%2F01%2F21%2F06%2F48%2F360_F_121064813_5CONOqmYSLyCLJlkRn3FsUl8733cg2qc.jpg&tbnid=e6DzaWI6MZ_abM&vet=10CAIQxiAoAGoXChMI0J6qqrSyhQMVAAAAAB0AAAAAEAc..i&imgrefurl=https%3A%2F%2Fstock.adobe.com%2Fsearch%3Fk%3Dsunset&docid=KWHxkmIqydFyCM&w=540&h=360&itg=1&q=sunsets&ved=0CAIQxiAoAGoXChMI0J6qqrSyhQMVAAAAAB0AAAAAEAc"/>
+            <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.pinimg.com%2F736x%2F04%2F6b%2Fde%2F046bde61365362d131002cadd4a230a5.jpg&tbnid=Ij5CSUbLV-BwXM&vet=10CAQQxiAoAmoXChMI0J6qqrSyhQMVAAAAAB0AAAAAEAc..i&imgrefurl=https%3A%2F%2Fwww.pinterest.jp%2Fpin%2F588423507534013493%2F&docid=ANnhDiNHZ12kzM&w=367&h=550&itg=1&q=sunsets&ved=0CAQQxiAoAmoXChMI0J6qqrSyhQMVAAAAAB0AAAAAEAc"/>
+            <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Ft4.ftcdn.net%2Fjpg%2F00%2F81%2F83%2F03%2F360_F_81830330_sfs46yRDV1XUOAAAUUjTgCu7O14nQio8.jpg&tbnid=-oP2RYa4u4Ew_M&vet=10CBIQxiAoA2oXChMI0J6qqrSyhQMVAAAAAB0AAAAAEAc..i&imgrefurl=https%3A%2F%2Fstock.adobe.com%2Fsearch%3Fk%3Dsunset&docid=KWHxkmIqydFyCM&w=540&h=360&itg=1&q=sunsets&ved=0CBIQxiAoA2oXChMI0J6qqrSyhQMVAAAAAB0AAAAAEAc"/>
+            <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.istockphoto.com%2Fid%2F1180469932%2Fphoto%2Fearly-morning-sunrise-on-a-choppy-river.jpg%3Fs%3D612x612%26w%3D0%26k%3D20%26c%3DFT8aAHLYX0-f0tDNdyYf2mMzaJMqqXJ4vOA8C8NUGxc%3D&tbnid=91cGieZ4hJuSPM&vet=10CBQQxiAoBGoXChMI0J6qqrSyhQMVAAAAAB0AAAAAEAc..i&imgrefurl=https%3A%2F%2Fwww.istockphoto.com%2Fphotos%2Fsunset&docid=Y0oPCFfazaP3OM&w=612&h=408&itg=1&q=sunsets&ved=0CBQQxiAoBGoXChMI0J6qqrSyhQMVAAAAAB0AAAAAEAc"/>
+            <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.shutterstock.com%2Fimage-photo%2Fsunset-beach-600nw-117062077.jpg&tbnid=v15cZ0ubFNC9cM&vet=10CBAQxiAoAWoXChMI0J6qqrSyhQMVAAAAAB0AAAAAEAc..i&imgrefurl=https%3A%2F%2Fwww.shutterstock.com%2Fsearch%2Focean-sunset&docid=LwiFt0Xh2Bc2SM&w=600&h=400&itg=1&q=sunsets&ved=0CBAQxiAoAWoXChMI0J6qqrSyhQMVAAAAAB0AAAAAEAc"/>
+        </div>
+    </body>
+</html>
