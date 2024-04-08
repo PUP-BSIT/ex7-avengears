@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background-color: #e12835;
+    background-image: radial-gradient(#e12835 20%, #be2633 50%, rgba(0, 0, 0, .5) 100%);
+    background-size: 120%;
+    background-position: center;
+    font-family: 'Barlow Condensed', sans-serif;
+    animation: tighten-vinette ease-out 1800ms forwards;
+}
+.wrapper {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h5, ul {
+    position: relative;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 3em;
+    margin: 0.05em 0.5em 0.5em;
+    padding: 0 0.4em;
+    display: inline-block;
+}
+ul {
+    font-weight: 500;
+    transform: translateX(-95px);
+}
+h5 {
+    z-index: 10;
+    font-weight: 800;
+    transform: translateX(95px);
+}
+h5:before {
+    z-index: -10;
+    content: '';
+    display: block;
+    background-color: #e12835;
+    border: solid rgba(255, 255, 255, .2) 1px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+ul:after, ul:before {
+    content: '';
+    display: block;
+    height: 3px;
+    position: absolute;
+    background-color: #fff;
+    display: block;
+    left: 0.4em;
+    right: 0.4em;
+}
+ul:before {
+    top: 0;
+}
+ul:after {
+    bottom: 0;
+}
+.wrapper.run-animation {
+    animation: shrink ease-out 4800ms forwards 600ms;
+}
+.wrapper.run-animation h5 {
+    transform: translateX(95px);
+    animation: slide-out-X 750ms ease forwards;
+}
+.wrapper.run-animation ul {
+    transform: translateX(-95px);
+    color: transparent;
+    animation: slide-out-X 750ms ease forwards, show-text 300ms linear forwards 1500ms;
+}
+.wrapper.run-animation ul:before {
+    transform: translateY(2.9em);
+    animation: slide-out-Y 300ms ease forwards 750ms;
+}
+.wrapper.run-animation ul:after {
+    transform: translateY(-2.9em);
+    animation: slide-out-Y 300ms ease forwards 750ms;
+}
+.wrapper.run-animation .restart {
+    opacity: 0;
+    animation: fade-down 1200ms ease 3600ms forwards;
+}
+@keyframes slide-out-X {
+    100% {
+        transform: translateX(0);
+    }
+}
+@keyframes slide-out-Y {
+    100% {
+        transform: translateY(0);
+    }
+}
+@keyframes show-text {
+    100% {
+        color: #fff;
+    }
+}
+@keyframes shrink {
+    100% {
+        transform: scale(0.8);
+    }
+}
+@keyframes tighten-vinette {
+    100% {
+        background-size: 120%;
+    }
+}
+@keyframes fade-down {
+    0% {
+        transform: translateY(-2em);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 0.5;
+    }
+}
