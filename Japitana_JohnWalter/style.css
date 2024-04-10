@@ -1,16 +1,20 @@
 .bgdiv {
-    background-image:url("img1.jfif");
+    background-image:url("media/img1.jfif");
+    color: white;
 }
+
 h2 {
     font-family: 'Times New Roman';
 }
+
 .brd {
     border-style: solid;
 }
+
 .bgc {
     background-color: yellow;
 }
-/* Navigation Add-on */
+
 .ulclass {
     list-style-type: none;
     margin: 0;
@@ -19,11 +23,11 @@ h2 {
     background-color: #38444d;
 }
 
-.li_class{
+.li-class{
     float: left;
 }
 
-.li_class a, .dropbtn {
+.li-class a, .dropbtn {
     display: inline-block;
     color: white;
     text-align: center;
@@ -31,7 +35,7 @@ h2 {
     text-decoration: none;
 }
 
-.li_class a:hover, .dropdown:hover .dropbtn {
+.li-class a:hover, .dropdown:hover .dropbtn {
     background-color: red;
 }
 
