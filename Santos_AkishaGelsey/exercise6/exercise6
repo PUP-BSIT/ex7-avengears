@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html>
-    <header>
-        <title>japitana john walter Page</title>
+    <head>
+        <title>Santos Akisha Gelsey Page</title>
         <link href="style.css" rel="stylesheet"/>
-    <body>
+    </head>
+    <body>{
+    }
+
         <div class="bgdiv">
-            <h1>japitana john walter</h1>
+            <h1> Santos Akisha Gelsey/h1> </h1>
         </div>
         <div>
             <h2>My interests and hobbies</h2>
@@ -20,11 +23,11 @@
         <div class="brd">
             <h2>My works</h2>
             <ol>
-                <li><a href="./Japitana.html">Japitana.html</a></li>
-                <li><a href="./Test.html">Test.html</a></li>
-                <li><a href="./Work3.html">Work3.html</a></li>
-                <li><a href="./Work4.html">Work4.html</a></li>
-                <li><a href="./Work5.html">Work5.html</a></li>
+                <li><a href="./akisha.html">Japitana.html</a></li>
+                <li><a href="./akishagelsey.html">Test.html</a></li>
+                <li><a href="./gelsey.html">Work3.html</a></li>
+                <li><a href="./loml.html">Work4.html</a></li>
+                <li><a href="./lopena.html">Work5.html</a></li>
             </ol>
         </div>
         <div>
@@ -32,12 +35,7 @@
         </div>
         <div class="bgc">
             <h2>Gallery</h2>
-            <img src="img1.jfif"/>
-            <img src="img2.jfif"/>
-            <img src="img3.jfif"/>
-            <img src="img4.jfif"/>
-            <img src="img5.jfif"/>
-            <img src="img6.jfif"/>
+            <img src="media/image1.png"/>
         </div>
-    </body>
+    </body>   
 </html>
