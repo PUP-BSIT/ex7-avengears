@@ -1,29 +1,80 @@
-.bgdiv {
-    background-image:url("img1.jfif");
+* {    
+    font-family: "Sansation";
+    color: #EEEEEE;
 }
+
+body{
+    background-color: #222831;
+}
+
+img {
+    width: 200px;
+    height: 160px;
+    opacity: 0.5;
+    object-fit: contain;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    padding: 10px;
+    border-radius: 25px;
+}
+
 h2 {
-    font-family: 'Times New Roman';
+    color: #00adb5;
+    text-align: center;
 }
-.brd {
-    border-style: solid;
+
+.class-1 {
+    background-image: url("media/image_7.jpg");
+    text-align: center;
+    line-height: 90px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    border-radius: 25px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
 }
-.bgc {
-    background-color: yellow;
+
+.class-2 {
+    background-color: #393e46;
+    border: 2px solid #00adb5;
+    width: 250px;
 }
-/* Navigation Add-on */
+
+.class-3 {
+    display: inline;
+    background-color: #393e46;
+    margin-bottom: 1rem;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    justify-items: center;
+}
+
 .ulclass {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #38444d;
+    background-color: #393e46;
 }
 
-.li_class{
+.li-class{
     float: left;
 }
 
-.li_class a, .dropbtn {
+.li-class a, .dropbtn {
     display: inline-block;
     color: white;
     text-align: center;
@@ -31,8 +82,8 @@ h2 {
     text-decoration: none;
 }
 
-.li_class a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+.li-class a:hover, .dropdown:hover .dropbtn {
+    background-color: #00adb5;
 }
 
 li.dropdown {
@@ -42,14 +93,15 @@ li.dropdown {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: #EEEEEE;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    border-radius: 0px;
 }
 
 .dropdown-content a {
-    color: black;
+    color: #00adb5;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -57,9 +109,14 @@ li.dropdown {
 }
 
 .dropdown-content a:hover {
-    background-color: #f1f1f1;
+    background-color: #393e46;
+    border-radius: 25px;
 }
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+img:hover{
+    opacity: 1;
 }
